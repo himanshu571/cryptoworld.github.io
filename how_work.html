@@ -1,0 +1,169 @@
+<html>
+<style>
+*{ margin: 0; padding: 0; box-sizing: border box;    
+background: black;
+}
+
+.let h1{
+float: left;
+  line-height:150px;
+  font-size: 35px;
+   
+ color: #ffffff;
+  font-size:50px; 
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.leftside{
+  float: left; color: #ffffff;
+  font-size:20px;
+  width: 66.66666%;
+  padding: 20px;
+  display:table; 
+  font-weight: 900;
+  text-transform: uppercase;
+}
+.leftside1{width: 55%;height: 300px;color: white; text-align: center;
+  margin-top: 80px; padding: 50px;
+}
+
+</style>
+<body>
+<header="site">
+<div class="let">
+<h1>HOW THIS BLOCKCHAIN WORK</h1>
+</div>
+
+<section>
+  <img class="mySlides" src="bg.jpg" style="width:100vw">
+  <img class="mySlides" src="C:\crypto\images\bgw.jpg" style="width:100%">
+  <img class="mySlides" src="C:\crypto\images\bg1.jpg" style="width:100%">
+</section>
+<script>
+// Automatic Slideshow - change image every 3 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 2000);
+}
+</script>
+
+<div class="leftside">
+<h1>KEY TAKEAWAYS</h1>
+<p>Blockchain is a specific type of database.
+It differs from a typical database in the way it stores information; blockchains store data in blocks that are then chained together. 
+As new data comes in it is entered into a fresh block. Once the block is filled with data it is chained onto the previous block, which makes the data chained together in chronological order.</p>
+<li>Different types of information can be stored on a blockchain but the most common use so far has been as a ledger for transactions. 
+In Bitcoin’s case, blockchain is used in a decentralized way so that no single person or group has control—rather, all users collectively retain control.
+Decentralized blockchains are immutable, which means that the data entered is irreversible. For Bitcoin, this means that transactions are permanently recorded and viewable to anyone.</li>
+<h1>What is Blockchain?</h1>
+<li>Blockchain seems complicated, and it definitely can be, but its core concept is really quite simple. A blockchain is a type of database. To be able to understand blockchain, it helps to first understand what a database actually is. </li>
+
+<p>A database is a collection of information that is stored electronically on a computer system. Information, or data, in databases is typically structured in table format to allow for easier searching and filtering for specific information.</p> What is the difference between someone using a spreadsheet to store information rather than a database?
+
+Spreadsheets are designed for one person, or a small group of people, to store and access limited amounts of information. In contrast, a database is designed to house significantly larger amounts of information that can be accessed, filtered, and manipulated quickly and easily by any number of users at once.
+
+Large databases achieve this by housing data on servers that are made of powerful computers. These servers can sometimes be built using hundreds or thousands of computers in order to have the computational power and storage capacity necessary for many users to access the database simultaneously. While a spreadsheet or database may be accessible to any number of people, it is often owned by a business and managed by an appointed individual that has complete control over how it works and the data within it.
+
+<h1>So how does a blockchain differ from a database?</h1>
+
+Storage Structure
+One key difference between a typical database and a blockchain is the way the data is structured. A blockchain collects information together in groups, also known as blocks, that hold sets of information. Blocks have certain storage capacities and, when filled, are chained onto the previously filled block, forming a chain of data known as the “blockchain.” All new information that follows that freshly added block is compiled into a newly formed block that will then also be added to the chain once filled.
+
+A database structures its data into tables whereas a blockchain, like its name implies, structures its data into chunks (blocks) that are chained together. This makes it so that all blockchains are databases but not all databases are blockchains. This system also inherently makes an irreversible timeline of data when implemented in a decentralized nature. When a block is filled it is set in stone and becomes a part of this timeline. Each block in the chain is given an exact timestamp when it is added to the chain.
+
+Transaction Process
+Blockchain
+Attributes of Cryptocurrency
+Blockchain
+Decentralization
+For the purpose of understanding blockchain, it is instructive to view it in the context of how it has been implemented by Bitcoin. Like a database, Bitcoin needs a collection of computers to store its blockchain. For Bitcoin, this blockchain is just a specific type of database that stores every Bitcoin transaction ever made. In Bitcoin’s case, and unlike most databases, these computers are not all under one roof, and each computer or group of computers is operated by a unique individual or group of individuals.  
+
+If one user tampers with Bitcoin’s record of transactions, all other nodes would cross-reference each other and easily pinpoint the node with the incorrect information. This system helps to establish an exact and transparent order of events. For Bitcoin, this information is a list of transactions, but it also is possible for a blockchain to hold a variety of information like legal contracts, state identifications, or a company’s product inventory. 
+
+In order to change how that system works, or the information stored within it, a majority of the decentralized network’s computing power would need to agree on said changes. This ensures that whatever changes do occur are in the best interests of the majority.
+
+<h1>Transparency</h1>
+Because of the decentralized nature of Bitcoin’s blockchain, all transactions can be transparently viewed by either having a personal node or by using blockchain explorers that allow anyone to see transactions occurring live. Each node has its own copy of the chain that gets updated as fresh blocks are confirmed and added. This means that if you wanted to, you could track Bitcoin wherever it goes. 
+
+For example, exchanges have been hacked in the past where those who held Bitcoin on the exchange lost everything. While the hacker may be entirely anonymous, the Bitcoins that they extracted are easily traceable. If the Bitcoins that were stolen in some of these hacks were to be moved or spent somewhere, it would be known.
+
+<h1>Is Blockchain Secure?</h1>
+Blockchain technology accounts for the issues of security and trust in several ways. First, new blocks are always stored linearly and chronologically. That is, they are always added to the “end” of the blockchain. If you take a look at Bitcoin’s blockchain, you’ll see that each block has a position on the chain, called a “height.” As of November 2020, the block’s height had reached 656,197 blocks so far. 
+
+After a block has been added to the end of the blockchain, it is very difficult to go back and alter the contents of the block unless the majority reached a consensus to do so. That’s because each block contains its own hash, along with the hash of the block before it, as well as the previously mentioned time stamp. Hash codes are created by a math function that turns digital information into a string of numbers and letters. If that information is edited in any way, the hash code changes as well.
+
+Here’s why that’s important to security. Let’s say a hacker wants to alter the blockchain and steal Bitcoin from everyone else. If they were to alter their own single copy, it would no longer align with everyone else's copy. When everyone else cross-references their copies against each other, they would see this one copy stand out and that hacker's version of the chain would be cast away as illegitimate. 
+
+Succeeding with such a hack would require that the hacker simultaneously control and alter 51% of the copies of the blockchain so that their new copy becomes the majority copy and thus, the agreed-upon chain. Such an attack would also require an immense amount of money and resources as they would need to redo all of the blocks because they would now have different timestamps and hash codes. 
+
+Due to the size of Bitcoin’s network and how fast it is growing, the cost to pull off such a feat would probably be insurmountable. Not only would this be extremely expensive, but it would also likely be fruitless. Doing such a thing would not go unnoticed, as network members would see such drastic alterations to the blockchain. The network members would then fork off to a new version of the chain that has not been affected. 
+
+This would cause the attacked version of Bitcoin to plummet in value, making the attack ultimately pointless as the bad actor has control of a worthless asset. The same would occur if the bad actor were to attack the new fork of Bitcoin. It is built this way so that taking part in the network is far more economically incentivized than attacking it.
+
+Bitcoin vs. Blockchain
+The goal of blockchain is to allow digital information to be recorded and distributed, but not edited. Blockchain technology was first outlined in 1991 by Stuart Haber and W. Scott Stornetta, two researchers who wanted to implement a system where document timestamps could not be tampered with. But it wasn’t until almost two decades later, with the launch of Bitcoin in January 2009, that blockchain had its first real-world application.
+
+The Bitcoin protocol is built on a blockchain. In a research paper introducing the digital currency, Bitcoin’s pseudonymous creator, Satoshi Nakamoto, referred to it as “a new electronic cash system that’s fully peer-to-peer, with no trusted third party.”
+
+The key thing to understand here is that Bitcoin merely uses blockchain as a means to transparently record a ledger of payments, but blockchain can, in theory, be used to immutably record any number of data points. As discussed above, this could be in the form of transactions, votes in an election, product inventories, state identifications, deeds to homes, and much more. 
+
+Currently, there is a vast variety of blockchain-based projects looking to implement blockchain in ways to help society other than just recording transactions. One good example is that of blockchain being used as a way to vote in democratic elections. The nature of blockchain’s immutability means that fraudulent voting would become far more difficult to occur. 
+
+For example, a voting system could work such that each citizen of a country would be issued a single cryptocurrency or token. Each candidate would then be given a specific wallet address, and the voters would send their token or crypto to whichever candidate's address they wish to vote for. The transparent and traceable nature of blockchain would eliminate the need for human vote counting as well as the ability of bad actors to tamper with physical ballots.
+
+Blockchain vs. Banks
+Banks and decentralized blockchains are vastly different. To see how a bank differs from blockchain, let’s compare the banking system to Bitcoin’s implementation of blockchain.
+
+How is Blockchain Used?
+As we now know, blocks on Bitcoin’s blockchain store data about monetary transactions. But it turns out that blockchain is actually a reliable way of storing data about other types of transactions, as well.
+
+Some companies that have already incorporated blockchain include Walmart, Pfizer, AIG, Siemens, Unilever, and a host of others. For example, IBM has created its Food Trust blockchain1﻿ to trace the journey that food products take to get to its locations.
+
+Why do this? The food industry has seen countless outbreaks of e Coli, salmonella, listeria, as well as hazardous materials being accidentally introduced to foods. In the past, it has taken weeks to find the source of these outbreaks or the cause of sickness from what people are eating.
+
+Using blockchain gives brands the ability to track a food product’s route from its origin, through each stop it makes, and finally its delivery. If a food is found to be contaminated then it can be traced all the way back through each stop to its origin. Not only that, but these companies can also now see everything else it may have come in contact with, allowing the identification of the problem to occur far sooner, potentially saving lives. This is one example of blockchains in practice, but there are many other forms of blockchain implementation.
+
+Banking and Finance
+Perhaps no industry stands to benefit from integrating blockchain into its business operations more than banking. Financial institutions only operate during business hours, five days a week. That means if you try to deposit a check on Friday at 6 p.m., you will likely have to wait until Monday morning to see that money hit your account. Even if you do make your deposit during business hours, the transaction can still take one to three days to verify due to the sheer volume of transactions that banks need to settle. Blockchain, on the other hand, never sleeps.
+
+By integrating blockchain into banks, consumers can see their transactions processed in as little as 10 minutes,2﻿ basically the time it takes to add a block to the blockchain, regardless of holidays or the time of day or week. With blockchain, banks also have the opportunity to exchange funds between institutions more quickly and securely. In the stock trading business, for example, the settlement and clearing process can take up to three days (or longer, if trading internationally), meaning that the money and shares are frozen for that period of time.
+
+Given the size of the sums involved, even the few days that the money is in transit can carry significant costs and risks for banks. European bank Santander and its research partners put the potential savings at $15 billion to $20 billion a year.3﻿ Capgemini, a French consultancy, estimates that consumers could save up to $16 billion in banking and insurance fees each year4﻿ through blockchain-based applications.
+
+
+
+Speed Inefficiency
+Bitcoin is a perfect case study for the possible inefficiencies of blockchain. Bitcoin’s “proof of work” system takes about ten minutes to add a new block to the blockchain. At that rate, it’s estimated that the blockchain network can only manage about seven transactions per second (TPS). Although other cryptocurrencies such as Ethereum perform better than bitcoin, they are still limited by blockchain. Legacy brand Visa, for context, can process 24,000 TPS.
+
+Solutions to this issue have been in development for years. There are currently blockchains that are boasting over 30,000 transactions per second.
+
+Illegal Activity
+While confidentiality on the blockchain network protects users from hacks and preserves privacy, it also allows for illegal trading and activity on the blockchain network. The most cited example of blockchain being used for illicit transactions is probably the Silk Road, an online “dark web” drug marketplace operating from February 2011 until October 2013 when it was shut down by the FBI.6﻿ 
+
+The website allowed users to browse the website without being tracked using the Tor browser and make illegal purchases in Bitcoin or other cryptocurrencies. Current U.S. regulations require financial service providers to obtain information about their customers when they open an account, verify the identity of each customer, and confirm that customers do not appear on any list of known or suspected terrorist organizations. This system can be seen as both a pro and a con. It gives anyone access to financial accounts but also allows criminals to more easily transact. Many have argued that the good uses of crypto, like banking the unbanked world, outweigh the bad uses of cryptocurrency, especially when most illegal activity is still accomplished through untraceable cash.
+
+Regulation
+Many in the crypto space have expressed concerns about government regulation over cryptocurrencies. While it is getting increasingly difficult and near impossible to end something like Bitcoin as its decentralized network grows, governments could theoretically make it illegal to own cryptocurrencies or participate in their networks. 
+
+Over time this concern has grown smaller as large companies like PayPal begin to allow the ownership and use of cryptocurrencies on its platform.
+
+What's Next for Blockchain?
+First proposed as a research project in 1991,7﻿ blockchain is comfortably settling into its late twenties. Like most millennials its age, blockchain has seen its fair share of public scrutiny over the last two decades, with businesses around the world speculating about what the technology is capable of and where it’s headed in the years to come.
+
+With many practical applications for the technology already being implemented and explored, blockchain is finally making a name for itself at age twenty-seven, in no small part because of bitcoin and cryptocurrency. As a buzzword on the tongue of every investor in the nation, blockchain stands to make business and government operations more accurate, efficient, secure, and cheap with fewer middlemen.
+
+As we prepare to head into the third decade of blockchain, it’s no longer a question of "if" legacy companies will catch on to the technology—it's a question of "when."
+</div>
+</header>
+</body>
+</html>
